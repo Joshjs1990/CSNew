@@ -8,12 +8,12 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #ffba19;
-        --primaryLight: #ffd675;
-        --secondary: #001f3f;
+        --primary: #006eff;
+        --primaryLight: #006eff;
+        --secondary: #000000;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
-        --bodyTextColor: #4e4b66;
+        --bodyTextColor: #000000;
         --bodyTextColorWhite: #fafbfc;
 
         /* 13px - 16px */
@@ -66,6 +66,7 @@
         position: relative;
         display: inline-block;
         background-color: var(--primary);
+        border-radius: 5px;
         width: auto;
         padding: 0 (30/16rem);
         text-decoration: none;
@@ -75,10 +76,11 @@
         font-weight: bold;
 
         // Transition Properties
-        color: #000;
+        color: #fff;
         transition: color 0.3s;
         transition-delay: 0.1s;
         text-align: center;
+        border-radius: 5px;
 
         &:hover {
             color: #fff;
@@ -97,6 +99,7 @@
             display: block;
             background-color: #000;
             height: 100%;
+            border-radius: 5px;
 
             //Transition properties
             width: 0;

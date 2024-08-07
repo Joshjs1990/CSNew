@@ -5,12 +5,12 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
-    --secondary: #001f3f;
+    --primary: #006eff;
+    --primaryLight: #006eff;
+    --secondary: #000000;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
-    --bodyTextColor: #4e4b66;
+    --bodyTextColor: #000000;
     --bodyTextColorWhite: #fafbfc;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -62,10 +62,11 @@
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     transition: color 0.3s;
     transition-delay: 0.1s;
     text-align: center;
+    border-radius: 5px;
   }
   .cs-button-solid:hover {
     color: #fff;
@@ -83,6 +84,7 @@
     display: block;
     background-color: #000;
     height: 100%;
+    border-radius: 5px;
     width: 0;
     transition: width 0.3s;
   }
